@@ -1,15 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\c-1\\c-2\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\c-1-main\\c-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00261925-4988-47F5-8F3E-BDD699A8AF19}|..\\Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\c-1\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2EB7842-C386-4319-BFD5-4EFC28786BCE}|..\\Class1th (Compile)\\Class1th (Compile).vcxproj|C:\\Users\\Administrator\\Desktop\\c-1\\Class1th (Compile)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53B654E9-3312-4B5F-AD32-B11F1BA6139D}|..\\Class2th (Variable \u0026 Constant)\\Class2th (Variable \u0026 Constant).vcxproj|C:\\Users\\Administrator\\Desktop\\c-1\\Class2th (Variable \u0026 Constant)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C4D55677-CD32-4DA6-9848-632413B23EEC}|Program_1\\Program_1.vcxproj|C:\\Users\\Administrator\\Desktop\\c-1-main\\c-2\\Program_1\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4D55677-CD32-4DA6-9848-632413B23EEC}|Program_1\\Program_1.vcxproj|solutionrelative:Program_1\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,39 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-1\\Class2th (Variable \u0026 Constant)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class2th (Variable \u0026 Constant)\\Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-1\\Class2th (Variable \u0026 Constant)\\Source.c",
-              "RelativeToolTip": "..\\Class2th (Variable \u0026 Constant)\\Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-12T11:58:44.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-1\\Class1th (Compile)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class1th (Compile)\\Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-1\\Class1th (Compile)\\Source.c",
-              "RelativeToolTip": "..\\Class1th (Compile)\\Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-12T11:58:39.095Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-1\\Program\\Source.c",
-              "RelativeDocumentMoniker": "..\\Program\\Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-1\\Program\\Source.c",
-              "RelativeToolTip": "..\\Program\\Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\c-1-main\\c-2\\Program_1\\Source.c",
+              "RelativeDocumentMoniker": "Program_1\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\c-1-main\\c-2\\Program_1\\Source.c",
+              "RelativeToolTip": "Program_1\\Source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-12T11:58:23.821Z",
+              "WhenOpened": "2025-12-15T11:03:17.367Z",
               "EditorCaption": ""
             }
           ]

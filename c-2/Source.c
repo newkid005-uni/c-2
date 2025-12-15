@@ -44,6 +44,7 @@ void main()
 #pragma region 비트
 	//데이터를 나타내는 최소의 단위이며, 0 또는 1의
 	//조합으로 논리 계산을 수행하는 단위입니다.
+#pragma endregion
 
 #pragma region (10)진수를 (2)진수로 변환하는 과정
 	//10진수를 1이 될 때까지 계속 2로 나누어 준 다음
@@ -63,6 +64,21 @@ void main()
 	//다음 각각의 비트를 모두 더하여 10진수로 나타냅니다.
 
 #pragma endregion
+
+#pragma region 비트 연산자
+	//비트 단위로 논리 연산을 수행하기 위해 사용하는 연산자입니다.
+	
+#pragma region AND 연산자
+	//두 개의 피연산자가 모두 1이면 1을 반환하는 연산자입니다.
+
+	int wisdom = 10;    // 00001010
+	int dexterity = 6;	// 00000110
+
+	printf("wisdom & dexterity : %d\n", wisdom & dexterity);
+#pragma endregion
+
+
+
 
 #pragma endregion
 
