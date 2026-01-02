@@ -130,6 +130,19 @@ void main()
 //주소를 새로 저장할 수는 없습니다.
 #pragma endregion
 
+#pragma region 허상 포인터
+//이미 해제된 메모리 영역을 가리키는 포인터입니다.
+//int* pointer;
+//
+//	{
+//		int x = 30;
+//		pointer = &x;
+//
+//		printf("%d\n", *pointer);
+//	}
+//	printf("%d\n", *pointer); // 컴파일러에 따라 정상출력되는 경우도 있음.
+
+#pragma endregion
 
 
 }

@@ -1,92 +1,28 @@
-#include <stdio.h>
-
-// 전역변수
-int max_health = 5;
-int health = 5;
-
-void render()
-{
-	for (int i = 0; i < health; i++)
-	{
-		printf("♥");
-	}
-	for (int i = 0; i < max_health - health; i++)
-	{
-		printf("♡");
-	}
-	printf("\n");
-}
+#include<stdio.h>
+#include<stdlib.h>
 
 
 void main()
 {
-#pragma region 메모리 영역
-	
-#pragma region CODE 영역
-	//프로그램을 실행하기 위해 필요한 코드가 저장되는 영역으로
-	//함수의 주소와 상수가 저장되는 메모리 영역입니다.
+#pragma region 동적 할당
+	//프로그램을 실행하는 중에 필요한 만큼 메모리를 할당
+	//하는 작업입니다.
 
-
-
-
-#pragma endregion
-
-#pragma region DATA 영역
-	//프로그램의 시작과 함께 메모리에 저장되며, 프로그램이
-	//종료될 때 메모리가 해제되는 영역입니다.
-
-
-
-#pragma endregion
-
-#pragma region BSS 영역
-	//프로그램이 실행될 때 초기화가 이루어지지 않은 전역 변수와
-	//정적 변수가 저장되는 메모리 영역입니다.
-
-
-
-#pragma endregion
-
-#pragma region STACK 영역
-	//프로그램이 자동으로 사용하는 임시 메모리 영역으로
-	//함수 호출시 생성되는 지역 변수와 매개 변수가 저장되는
-	//메모리 영역입니다.
-
-
-#pragma endregion
-
-#pragma region HEAP 영역
-	//사용자가 직접 메모리 공간을 할당해주는 메모리 영역이며,
-	//사용하지 않는 경우 사용자가 직접 메모리를
-	//해제해야 되는 메모리 영역입니다.
-
-
-#pragma endregion
-
-
-#pragma endregion
-
-#pragma region 지역 변수
-	//함수 내부에서 선언된 변수로 함수 내부에서만 접근할 수 있으며,
-	//함수가 종료되었을 때 메모리에서 사라지는 특징을 가지고 있는 변수입니다.
-
-	//int x = 10;
-	//{
-	//	int x = 20;
+	//int * x = malloc(sizeof(int));
+	//*x = 99;
 	//
-	//	printf("%d\n", x);
-	//}
-	//printf("%d\n", x);
+	//printf("%d\n", *x);
+	//
+	//free(x);
+	//
+	//printf("%d\n", *x);
 
-#pragma endregion
+	//동적 할당은 실행 시간에 가변적으로 메모리의 크기를
+	//변경시킬 수 있으며, 동적으로 메모리의 크기를 할당할 때
+	//바이트 단위로 지정합니다.
 
-#pragma region 전역 변수
-	//함수 외부에서 선언된 변수로 프로그램이 실행될 때
-	//메모리에 올라가게 되며, 프로그램이 종료되면 메모리에서
-	//해제되는 변수입니다.
-
-	health -= 1;
-	render();
+	//동적으로 할당한 메모리는 힙 영역에 보관되어 있으므로,
+	//사용이 끝나면 직접 해제해주어야 합니다.
 
 #pragma endregion
 
