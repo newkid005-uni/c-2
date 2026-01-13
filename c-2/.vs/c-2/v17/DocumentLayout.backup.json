@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C4D55677-CD32-4DA6-9848-632413B23EEC}|Program_1\\Program_1.vcxproj|C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\Program_1\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C4D55677-CD32-4DA6-9848-632413B23EEC}|Program_1\\Program_1.vcxproj|solutionrelative:Program_1\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0A174B7-B5ED-41BB-B688-1FDABACF5B5D}|Class9th (Array)\\Class9th (Array).vcxproj|C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\Class9th (Array)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0A174B7-B5ED-41BB-B688-1FDABACF5B5D}|Class9th (Array)\\Class9th (Array).vcxproj|solutionrelative:Class9th (Array)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\Class9th (Array)\\Source.c",
+              "RelativeDocumentMoniker": "Class9th (Array)\\Source.c",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\Class9th (Array)\\Source.c",
+              "RelativeToolTip": "Class9th (Array)\\Source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-13T12:13:22.539Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\Program_1\\Source.c",
               "RelativeDocumentMoniker": "Program_1\\Source.c",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\Program_1\\Source.c*",
-              "RelativeToolTip": "Program_1\\Source.c*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\Program_1\\Source.c",
+              "RelativeToolTip": "Program_1\\Source.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-15T11:03:17.367Z",
               "EditorCaption": ""

@@ -1,51 +1,57 @@
 #include<stdio.h>
-#include<Windows.h>
+#include<stdlib.h>
+#include<time.h>
 
-#define SIZE 10
+
+void shuffle(int array[],int size)
+{
+	for (int i = 0;i < size;i++)
+	{
+		int random = rand() % size;
+
+		int temp = array[random];
+		array[random] = array[i];
+		array[i] = temp;
+	}
+}
 
 int main()
 {
-#pragma region 포인터 배열
-	int i = 0;
-	const char* arr[SIZE];
-	int power = 0;
+#pragma region 의사 난수
+	//0 ~ 32767 사이의 난수 값을 반환하는 함수입니다.
 
-	arr[0] = "실례합니다.\n";
-	arr[1] = "어서오세요. 김씨네 탐정사무소에 오신걸 환영합니다.\n";
-	arr[2] = "전에 저희가게에서 도둑이 든 것 같아 \n조사를 부탁드리고 싶어서 왔습니다.\n";
-	arr[3] = "그럼 계약서부터 작성할까요? 성함이 어떻게 되시나요?\n";
-	arr[4] = "박득춘입니다.\n";
-	arr[5] = "네. 박득춘씨 가게위치는 어디인가요?\n";
-	arr[6] = "옆블럭의 박가네 국밥입니다.\n";
-	arr[7] = "그럼 가게에서 사전조사를 해야겠네요.\n조사하는데 출장비는 3만원입니다.\n";
-	arr[8] = "네? 현수막에 착수비는 무료라고 적혀있던데요?\n";
-	arr[9] = "그건 작년까지였어요. 철거비가 비싸더군요.\n";
+	//UTC 기준으로 1970년 1월 1일 0시 0분 0초부터 경과된
+	//시간을 초(sec)로 반환하는 함수입니다.
 
-	//0x0000 : 이전에 누른 적이 없고 호출 시점에도 눌려있지 않은 상태
-
-	//0x0001 : 이전에 누른 적이 있고 호출 시점에는 눌려있지 않은 상태
-
-	//0x8000 : 이전에 누른 적이 없고 호출 시점에는 눌려있는 상태
-
-	//0x8001 : 이전에 누른 적이 있고 호출 시점에도 눌려있는 상태
+	//srand : rand()가 사용할 초기값(seed)을 설정하는 함수
 
 	
-	while (power == 0)
-	{
-		if (GetAsyncKeyState(VK_SPACE) & 0x0001)
-		{
-			printf("%s\n", arr[i]);
-			i++;
-			if (i == SIZE)
-			{
-				++power;
-			}
 
-		}
-	}
-	
+	//srand(time(NULL));
+	//
+	//int random = rand() % 10 + 1;
+	//
+	//printf("random = %d\n", random);
+
 
 #pragma endregion
+
+#pragma region 셔플 함수
+	
+	srand(time(NULL));
+
+	int array[] = { 1,2,3,4,5,6,7,8,9,10 };
+	int size = sizeof(array)/sizeof(array[0]);
+
+
+	shuffle(array,size);
+
+	for (int i = 0;i < size;i++)
+	{
+		printf("%d ", array[i]);
+	}
+#pragma endregion
+
 
 
 	return 0;
