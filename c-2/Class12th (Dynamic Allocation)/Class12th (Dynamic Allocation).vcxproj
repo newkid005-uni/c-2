@@ -24,6 +24,7 @@
     <ProjectGuid>{1dd1eff2-06c0-4610-aaff-62ac2850ef1e}</ProjectGuid>
     <RootNamespace>Class12thDynamicAllocation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class1-12th (Dynamic Allocation)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -1,56 +1,31 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
 
-
-void shuffle(int array[],int size)
-{
-	for (int i = 0;i < size;i++)
-	{
-		int random = rand() % size;
-
-		int temp = array[random];
-		array[random] = array[i];
-		array[i] = temp;
-	}
-}
 
 int main()
 {
-#pragma region 의사 난수
-	//0 ~ 32767 사이의 난수 값을 반환하는 함수입니다.
+#pragma region 파일 입출력
 
-	//UTC 기준으로 1970년 1월 1일 0시 0분 0초부터 경과된
-	//시간을 초(sec)로 반환하는 함수입니다.
-
-	//srand : rand()가 사용할 초기값(seed)을 설정하는 함수
-
-	
-
-	//srand(time(NULL));
+#pragma region 파일 쓰기
+	//첫 번째 매개변수 (파일의 이름)
+	//두 번째 매개변수 (파일의 입출력 모드)
+	//FILE* file = fopen("data.txt","w");
 	//
-	//int random = rand() % 10 + 1;
+	//fputs("Character Information\n\n", file);
 	//
-	//printf("random = %d\n", random);
+	//fputs("Health : \n", file);
+	//fputs("Attack : \n", file);
+	//fputs("Defense : \n", file);
+	//
+	//fclose(file);
+	//작성내용은 덮어써진다.
+
+#pragma endregion
 
 
 #pragma endregion
 
-#pragma region 셔플 함수
-	
-	srand(time(NULL));
-
-	int array[] = { 1,2,3,4,5,6,7,8,9,10 };
-	int size = sizeof(array)/sizeof(array[0]);
 
 
-	shuffle(array,size);
-
-	for (int i = 0;i < size;i++)
-	{
-		printf("%d ", array[i]);
-	}
-#pragma endregion
 
 
 

@@ -3,35 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class01th (Compile)", "..\Class1th (Compile)\Class1th (Compile).vcxproj", "{D2EB7842-C386-4319-BFD5-4EFC28786BCE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-01th (Compile)", "..\Class1th (Compile)\Class1th (Compile).vcxproj", "{D2EB7842-C386-4319-BFD5-4EFC28786BCE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class02th (Variable & Constant)", "..\Class2th (Variable & Constant)\Class2th (Variable & Constant).vcxproj", "{53B654E9-3312-4B5F-AD32-B11F1BA6139D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-02th (Variable & Constant)", "..\Class2th (Variable & Constant)\Class2th (Variable & Constant).vcxproj", "{53B654E9-3312-4B5F-AD32-B11F1BA6139D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program_1", "Program_1\Program_1.vcxproj", "{C4D55677-CD32-4DA6-9848-632413B23EEC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class03th (Bit)", "Class3th (Bit)\Class3th (Bit).vcxproj", "{5B7E8724-9F32-4E53-8556-29186E62F7CD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-03th (Bit)", "Class3th (Bit)\Class3th (Bit).vcxproj", "{5B7E8724-9F32-4E53-8556-29186E62F7CD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class04th (Overflow & Underflow)", "Class4th (Overflow & Underflow)\Class4th (Overflow & Underflow).vcxproj", "{12BF5F3D-DB56-4F8D-B5B2-4023BB2889C9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-04th (Overflow & Underflow)", "Class4th (Overflow & Underflow)\Class4th (Overflow & Underflow).vcxproj", "{12BF5F3D-DB56-4F8D-B5B2-4023BB2889C9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class05th (Conditional Statement)", "Class5th (Conditional Statement)\Class5th (Conditional Statement).vcxproj", "{86799AC5-5284-4D03-8D3C-75416B97DA18}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-05th (Conditional Statement)", "Class5th (Conditional Statement)\Class5th (Conditional Statement).vcxproj", "{86799AC5-5284-4D03-8D3C-75416B97DA18}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class06th (Iteration Statement)", "Class6th (Iteration Statement)\Class6th (Iteration Statement).vcxproj", "{0AAAB4E1-F0AA-471C-B35B-532E2D7EA69E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-06th (Iteration Statement)", "Class6th (Iteration Statement)\Class6th (Iteration Statement).vcxproj", "{0AAAB4E1-F0AA-471C-B35B-532E2D7EA69E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class07th (Type Conversion)", "Class7th (Type Conversion)\Class7th (Type Conversion).vcxproj", "{CD7800B3-6E39-4279-9FA6-DB445004FDB6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-07th (Type Conversion)", "Class7th (Type Conversion)\Class7th (Type Conversion).vcxproj", "{CD7800B3-6E39-4279-9FA6-DB445004FDB6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class08th (Pointer)", "Class8th (Pointer)\Class8th (Pointer).vcxproj", "{2CBFC942-0A26-485D-B4FA-891E6B49347C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-08th (Pointer)", "Class8th (Pointer)\Class8th (Pointer).vcxproj", "{2CBFC942-0A26-485D-B4FA-891E6B49347C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class09th (Array)", "Class9th (Array)\Class9th (Array).vcxproj", "{F0A174B7-B5ED-41BB-B688-1FDABACF5B5D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-09th (Array)", "Class9th (Array)\Class9th (Array).vcxproj", "{F0A174B7-B5ED-41BB-B688-1FDABACF5B5D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class10th (Function)", "Class10th (Function)\Class10th (Function).vcxproj", "{BD6729B5-CA72-44DF-82A7-644CBD0E3B42}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-10th (Function)", "Class10th (Function)\Class10th (Function).vcxproj", "{BD6729B5-CA72-44DF-82A7-644CBD0E3B42}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class11th (storage)", "Class11th (storage)\Class11th (storage).vcxproj", "{6701907F-8C12-4A8B-923B-D58ABBBCE807}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-11th (storage)", "Class11th (storage)\Class11th (storage).vcxproj", "{6701907F-8C12-4A8B-923B-D58ABBBCE807}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class12th (Dynamic Allocation)", "Class12th (Dynamic Allocation)\Class12th (Dynamic Allocation).vcxproj", "{1DD1EFF2-06C0-4610-AAFF-62AC2850EF1E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-12th (Dynamic Allocation)", "Class12th (Dynamic Allocation)\Class12th (Dynamic Allocation).vcxproj", "{1DD1EFF2-06C0-4610-AAFF-62AC2850EF1E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class13th (Struct)", "Class13th (Struct)\Class13th (Struct).vcxproj", "{98499495-2C27-463F-901F-18A1DB0F2B4B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1-13th (Struct)", "Class13th (Struct)\Class13th (Struct).vcxproj", "{98499495-2C27-463F-901F-18A1DB0F2B4B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1th (input System)", "Class1th (input System)\Class1th (input System).vcxproj", "{5A948EFF-AA12-40CD-A9AD-90925CC72539}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class2-01th (Input System)", "Class1th (input System)\Class1th (input System).vcxproj", "{5A948EFF-AA12-40CD-A9AD-90925CC72539}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class2-02th (Time)", "Class 2th (time)\Class 2th (time).vcxproj", "{9D628455-D3B3-4918-8C4F-28422E216F54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +163,14 @@ Global
 		{5A948EFF-AA12-40CD-A9AD-90925CC72539}.Release|x64.Build.0 = Release|x64
 		{5A948EFF-AA12-40CD-A9AD-90925CC72539}.Release|x86.ActiveCfg = Release|Win32
 		{5A948EFF-AA12-40CD-A9AD-90925CC72539}.Release|x86.Build.0 = Release|Win32
+		{9D628455-D3B3-4918-8C4F-28422E216F54}.Debug|x64.ActiveCfg = Debug|x64
+		{9D628455-D3B3-4918-8C4F-28422E216F54}.Debug|x64.Build.0 = Debug|x64
+		{9D628455-D3B3-4918-8C4F-28422E216F54}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D628455-D3B3-4918-8C4F-28422E216F54}.Debug|x86.Build.0 = Debug|Win32
+		{9D628455-D3B3-4918-8C4F-28422E216F54}.Release|x64.ActiveCfg = Release|x64
+		{9D628455-D3B3-4918-8C4F-28422E216F54}.Release|x64.Build.0 = Release|x64
+		{9D628455-D3B3-4918-8C4F-28422E216F54}.Release|x86.ActiveCfg = Release|Win32
+		{9D628455-D3B3-4918-8C4F-28422E216F54}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
