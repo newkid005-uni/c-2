@@ -1,3 +1,2 @@
 ﻿  Source.c
-C:\Users\User\Desktop\SBS\c-1\c-2\Program_1\Source.c(36,16): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
   Program_1.vcxproj -> C:\Users\User\Desktop\SBS\c-1\c-2\x64\Debug\Program_1.exe
