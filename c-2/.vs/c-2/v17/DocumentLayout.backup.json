@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\SBS\\c-2\\c-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4D55677-CD32-4DA6-9848-632413B23EEC}|Program_1\\Program_1.vcxproj|C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\Program_1\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C4D55677-CD32-4DA6-9848-632413B23EEC}|Program_1\\Program_1.vcxproj|C:\\Users\\User\\Desktop\\SBS\\c-2\\c-2\\Program_1\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C4D55677-CD32-4DA6-9848-632413B23EEC}|Program_1\\Program_1.vcxproj|solutionrelative:Program_1\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\Program_1\\Source.c",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\SBS\\c-2\\c-2\\Program_1\\Source.c",
               "RelativeDocumentMoniker": "Program_1\\Source.c",
-              "ToolTip": "C:\\Users\\User\\Desktop\\SBS\\c-1\\c-2\\Program_1\\Source.c*",
-              "RelativeToolTip": "Program_1\\Source.c*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAEwAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\SBS\\c-2\\c-2\\Program_1\\Source.c",
+              "RelativeToolTip": "Program_1\\Source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-12-15T11:03:17.367Z",
               "EditorCaption": ""
